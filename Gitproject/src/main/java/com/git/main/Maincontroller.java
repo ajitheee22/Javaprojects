@@ -15,4 +15,12 @@ public class Maincontroller {
 		return "Hey welcome to REST";
 		
 	}
+	
+	@GetMapping("/product")
+	public String newsmainmethod() {
+		
+		
+		return "Hey welcome to Products";
+		
+	}
 }
